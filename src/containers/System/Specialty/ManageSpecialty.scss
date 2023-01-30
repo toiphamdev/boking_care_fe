@@ -1,0 +1,13 @@
+.manage-spaceialty-container{
+    padding: 5px;
+    .title{
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-transform: uppercase
+    }
+    .action-btn{
+        display: flex;
+        justify-content: space-between;
+    }
+}

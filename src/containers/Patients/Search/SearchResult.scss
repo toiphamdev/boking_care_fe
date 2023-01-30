@@ -1,0 +1,26 @@
+.search-item{
+    width: 100%;
+    display: flex;
+    padding: 4px 16px;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    outline: none;
+    align-items: center;
+    &:hover{
+        text-decoration: none;
+        background-color: #2fc0d7;
+        color: #fff;
+    }
+    .search-item-image{
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+    .search-item-title{
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 12px;
+    }
+}

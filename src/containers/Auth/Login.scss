@@ -1,0 +1,69 @@
+.loginBackground {
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+    .loginContainer {
+        max-width: 500px;
+        min-width: 300px;
+        max-height: 550px;
+        width: 30%;
+        height: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #FFFFFF;
+        border-radius: 25px;
+
+        .textLogin {
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: 600;
+            padding-top: 3rem;
+        }
+
+        .loginInput {
+            margin: 1rem 0;
+
+        }
+
+        .btnLogin {
+            width: 100%;
+            color: #FFFFFF;
+            font-size: 1.2rem;
+            padding: 0.5rem 0;
+            border-radius: 30px;
+            border: none;
+            outline: none;
+            background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+        }
+
+        .socialLogin {
+            margin-top: 30px;
+            justify-content: center;
+
+            .iconLogin {
+                border-radius: 50%;
+                color: #FFFFFF;
+
+                .facebook {
+                    padding: 8px 13px;
+                    font-size: 1.6rem;
+                    background-color: #307aff;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+
+                .google {
+                    padding: 8px 5px;
+                    font-size: 1.6rem;
+                    border-radius: 50%;
+                    background-color: #992020;
+                    margin-right: 30px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}

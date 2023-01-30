@@ -1,0 +1,24 @@
+.preview-container {
+
+    .lablel-upload {
+        padding: 5px;
+        border-radius: 3px;
+        background: #ddd;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .preview-img {
+        width: 100%;
+        padding-top: 100%;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+}

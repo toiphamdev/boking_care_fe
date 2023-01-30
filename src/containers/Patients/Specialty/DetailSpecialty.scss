@@ -1,0 +1,34 @@
+.specialty-wrapper{
+
+    background-color: #eeeeee;
+    .specialty-container{
+        .description-specialty{
+            padding: 30px 50px 15px;
+            background-color: #fff;
+        }
+
+        .doctors{
+            padding: 30px 50px 30px;
+            .provice-search{
+                margin-bottom: 20px;
+                width: 200px;
+            }
+            .each-doctor{
+                box-shadow: 0 1px 6px #20212447;
+                background-color: #fff;
+                border-radius: 15px;
+                margin-bottom: 15px;
+                padding: 15px;
+                display: flex;
+                .content-left-specialty{
+                    padding-right: 15px;
+                    width: 50%;
+                }
+                .content-right-specialty{
+                    padding-left: 15px;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "home-header": {
+        "speciality": "Medical specialty",
+        "search-doctor": "Find a doctor by specialty",
+        "facility": "Health facilities",
+        "clinic": "Choose a hospital",
+        "doctor": "Doctor",
+        "choose-doctor": "Choose a good doctor",
+        "package": "Examination package",
+        "general": "General health check",
+        "support": "Support",
+        "title1": "Health platform",
+        "title2": "Comprehensive health care",
+        "option-child1": "Specialist<br/>examination",
+        "option-child1_1": "Specialized medical",
+        "option-child1_2": "examination",
+        "option-child2_1": "Remote medical",
+        "option-child2_2": "examination",
+        "option-child3_1": "Physical",
+        "option-child3_2": "exam",
+        "option-child4_1": "Medical",
+        "option-child4_2": "test",
+        "option-child5_1": "Mental",
+        "option-child5_2": "health",
+        "option-child6_1": "Dental",
+        "option-child6_2": "examination",
+        "option-child7": "Surgery pack",
+        "option-child8": "Medical Products",
+        "welcome": "Welcome, ",
+        "sign-in":"Sign in",
+        "service":"Services",
+        "register":"Register"
+    },
+    "menu": {
+        "admin": {
+            "header": "System",
+            "manage-user": "Manage users",
+            "manage-doctor": "Manage doctors",
+            "manage-admin": "Manage admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD Redux",
+            "manage-clinic": "Manage clinics",
+            "manage-specialty": "Manage specialties",
+            "manage-hand-book": "Manage handbook",
+            "clinic": "Clinics",
+            "specialty": "Specialties",
+            "handbook": "Handbook"
+        },
+        "doctor":{
+            "manage-schedule":"Manage doctor's schedule",
+            "manage-patient":"Mangage doctor''s patient",
+            "loading-data":"Send email"
+        },
+        "home":"Home page"
+    },
+    "manage-users": {
+        "add": "Add a new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Avatar",
+        "save": "Save",
+        "choose": "Choose ...",
+        "image-upload": "Upload avatar",
+        "edit": "Save change",
+        "edit-user": "Edit user's information"
+    },
+    "home-page": {
+        "outstanding-doctor": "Last week's featured doctor",
+        "more-info": "More information",
+        "specialty-popular":"Popular specialties",
+        "medical-facility":"Outstanding medical facility"
+    },
+    "manage-schedule":{
+        "title":"Manage doctor's appointment schedule",
+        "choose-doctor":"Choose doctor",
+        "choose-date":"Choose date",
+        "save":"Save"
+    },
+    "patient":{
+        "detail-doctor":{
+            "schedule":"Schedule",
+            "no-schedule":"There are no appointments during this time, please choose another time",
+            "choose":"Choose ",
+            "book":" and book (free)"
+        },
+        "booking-modal":{
+            "title":"Booking form",
+            "full-name":"Full name",
+            "phone-number":"Phone number",
+            "email":"Email",
+            "address":"Address",
+            "gender":"Gender",
+            "birthday":"Birthday",
+            "reason":"Reasons for medical examination",
+            "confirm-btn":"Book",
+            "cancel-btn":"Cancel",
+            "book-fee":"Free booking",
+            "booking-success":"Your appointment has been successfully booked, please wait for your doctor's response.",
+            "booking-failed":"Something went wrong, maybe your appointment was not found or confirmed.",
+            "loading-data":"Loading data ..."
+        },
+        "search":{
+            "not-found":"No results found",
+            "place-holder":"Find specialty, clinic"
+        }
+    },
+    "admin":{
+        "manage-doctor":{
+            "title":"Create more doctor information",
+            "select-doctor":"Choose a doctor",
+            "intro":"Introduction information",
+            "add":"Add information",
+            "save":"Save information",
+            "price":"Price ",
+            "payment":"Payment",
+            "province":"Province",
+            "addressClinic":"Clinic's address",
+            "nameClinic":"Clinic's name",
+            "note":"Note",
+            "extra-infor":{
+                "title":"Address of medical examination",
+                "price":"Medical examination price: ",
+                "price-content":"The clinic has payment in the form of",
+                "detail-display":"Detail view",
+                "detail-none":"Hide price list"
+            }
+        }
+    }
+}
